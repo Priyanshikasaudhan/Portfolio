@@ -22,8 +22,7 @@ html{
 body{
     background: var(--bg-color);
     color: var(--text-color);
-    /* background-image: url("C:\Users\DELL\Desktop\Portfolio\IMAGES/back.jpeg");
-     */
+    overflow-x: hidden;
 }
 
 section{
@@ -306,6 +305,7 @@ span{
     margin-top: 2rem;
     cursor: pointer;
 }
+ 
 /* style of footer */
 .footer {
     display: flex;
