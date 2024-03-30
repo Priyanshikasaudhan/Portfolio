@@ -210,6 +210,7 @@ span{
 /* css of skill */
 .skill{
     background: var(--secong-bg-color);
+    /* background-image: url(C:\Users\DELL\Desktop\Portfolio\IMAGES\skill.jpeg); */
 }
 .skill label h3{
     font-size: 2rem;
@@ -222,7 +223,7 @@ span{
     color: white;
 }
 .skill-container{
-    width: 50vw;
+    width: 40vw;
     background: var(--main-color);
     /* background-image: url(IMAGES/skill.jpeg); */
     height: 80vw;
@@ -231,7 +232,7 @@ span{
     padding-left: 5rem;
     margin-top: 5rem;
     margin-bottom: 2rem;
-    margin-left: 20rem;
+    margin-left: 10rem;
 }
 .skill h1{
     padding-top: 1rem ;
@@ -489,6 +490,7 @@ section {
         width: auto;
         height: auto;
         margin-right: 10%;
+        position:relative;
     }
     .skill label input{
         margin-right: 10%;
