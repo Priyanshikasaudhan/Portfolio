@@ -207,9 +207,40 @@ span{
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
 }
+/* css of skill */
+.skill{
+    background: var(--secong-bg-color);
+}
+.skill label h3{
+    font-size: 2rem;
+    color: var(--bg-color);
+    padding: 3rem 2rem 4rem;
+    justify-content: center;
+    align-items: center;
+}
+.skill li span{
+    color: white;
+}
+.skill-container{
+    width: 50vw;
+    background: var(--main-color);
+    /* background-image: url(IMAGES/skill.jpeg); */
+    height: 80vw;
+    justify-content:center ;
+    align-items: center;
+    padding-left: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    margin-left: 20rem;
+}
+.skill h1{
+    padding-top: 1rem ;
+    font-size: 2rem;
+    color: var(--bg-color);
+}
 /* style of portfolio */
 .portfolio{
-    background: var(--secong-bg-color);
+    background: var(--bg-color);
 }
 .portfolio h2{
     margin-bottom: 4rem;
@@ -275,6 +306,9 @@ span{
     color: var(--secong-bg-color) ;
 }
 /* style of contact */
+.contact{
+    background: var(--secong-bg-color);
+}
 .contact h2{
     margin-bottom: 3rem;
 }
@@ -313,7 +347,7 @@ span{
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem 9%;
-    background: var(--secong-bg-color);
+    background: var(--bg-color);
 }
 .footer-text p{
     font-size: 1.6rem;
@@ -352,6 +386,10 @@ section {
 }
 .portfolio{
     padding-bottom: 7rem;
+}
+.skill{
+    padding-bottom: 7rem;
+    min-height: auto;
 }
 .contact{
     min-height: auto;
@@ -441,5 +479,18 @@ section {
     .footer p{
         text-align: center;
         margin-top: 2rem;
+    }
+}
+@media (max-width: 800px){
+    .skill{
+        width: 100%;
+    }
+    .skill-container{
+        width: auto;
+        height: auto;
+        margin-right: 10%;
+    }
+    .skill label input{
+        margin-right: 10%;
     }
 }
